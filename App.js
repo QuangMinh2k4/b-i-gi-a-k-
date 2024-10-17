@@ -1,4 +1,5 @@
 import React from 'react';
+import { useAsync } from 'react-async-hook';
 import { View, Text, StyleSheet, TouchableOpacity, ImageBackground, Image } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
